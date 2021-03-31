@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    font-family: "Noto Sans";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-color: #eff7ff;
+}
+
+.content{
+    display: inline-block;
+
+    width: 300px;
+    height: 300px;
+
+    border: 3px solid #8245d8;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #661bce;
+}
+
+#txtResult{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+
+    position: relative;
+    top: 40px;
+}
+
+#btnRand {
+    background-color: #8245d8; 
+    color: #fff;
+    border: 1px solid;
+    border-radius: 25px;
+    width: 120px;
+    padding: 10px;
+    cursor: pointer;
+
+    text-transform: uppercase;
+    
+    position: relative;
+    left: 90px;
+    top: 60px;
+}
+
+#btnRand:hover{
+    opacity: 70%;
+}
+
+#limpar{
+    text-decoration: none;
+    color: #8245d8;
+    font-size: 12px;
+    float: right;
+
+    position: relative;
+    top: 110px;
+    margin-right: 10px;
+}
+
+#sorteados{
+    text-decoration: none;
+    color: #8245d8;
+    font-size: 12px;
+
+    position: relative;
+    top: 100px;
+    right: 120px;
+    margin-left: 5px;
+}
+
+
+#txtSorteados{
+    display: block;
+    max-width: 250px;
+
+    position: relative;
+    top: 100px;
+    left: 24px;
+
+    color: #8245d8;
+    font-size: 24px;
+    text-align: center;
+    word-wrap: break-word;
+}
